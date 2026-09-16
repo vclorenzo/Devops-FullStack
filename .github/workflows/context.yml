@@ -2,7 +2,7 @@ name: Contexts CI
 run-name: ${{ github.actor }}'s CI
 
 on:
-  push:
+  workflow_dispatch:
 
 env:
   GLOBAL_APP_ENV: global-dev

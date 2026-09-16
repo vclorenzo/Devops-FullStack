@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: app1-hello
-          image: embarkx/hello-node:latest
+          # Change to your docker image
+          image: vclorenzo/hello-node:latest
           ports:
             - containerPort: 3000
           env:
