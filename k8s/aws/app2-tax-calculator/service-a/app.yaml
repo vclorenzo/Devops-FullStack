@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-a
-          image: embarkx/tax-service-a:latest
+          image: vclorenzo/tax-service-a:node-latest
           ports:
             - containerPort: 3000
           env:
